@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
+import { LessonsPage } from "@pages/lessons-page/lessons-page";
 import Root from "./routes/root";
-import { LessonsPage } from "../pages/lessons-page/lessons-page";
 
 export const router: Parameters<typeof createBrowserRouter>[0] = [ {
   path: "/",
