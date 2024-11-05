@@ -1,3 +1,9 @@
 .lessons-page {
-  display: block;
+
+  &__title {}
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
 }

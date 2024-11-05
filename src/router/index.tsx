@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { LessonsPage } from "@pages/lessons-page/lessons-page";
+import { LessonPage } from "@pages/lesson-page/lesson-page";
 import Root from "./routes/root";
 
 export const router: Parameters<typeof createBrowserRouter>[0] = [ {
@@ -13,6 +14,10 @@ export const router: Parameters<typeof createBrowserRouter>[0] = [ {
     {
       path: "/lessons",
       element: <LessonsPage />,
+    },
+    {
+      path: "/lessons/:lessonName",
+      element: <LessonPage />,
     },
     {
       path: "/profile",
