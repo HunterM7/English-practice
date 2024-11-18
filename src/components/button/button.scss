@@ -1,0 +1,96 @@
+@use '@scss/colors';
+
+.button {
+  padding: 4px 34px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  font-size: 32px;
+  cursor: pointer;
+  user-select: none;
+  background-color: colors.$white;
+
+  &:disabled {
+    cursor: default;
+  }
+  
+  &--purple {
+    border-color: colors.$purple;
+    color: colors.$purple;
+    
+    &:hover {
+      border-color: colors.$purple-dark;
+      color: colors.$purple-dark;
+    }
+  
+    &:active {
+      border-color: colors.$purple-light;
+      color: colors.$purple-light;
+    }
+  
+    &:disabled {
+      border-color: colors.$gray;
+      color: colors.$gray;
+    }
+  }
+
+  &--green {
+    border-color: colors.$green;
+    color: colors.$green;
+    
+    &:hover {
+      border-color: colors.$green-dark;
+      color: colors.$green-dark;
+    }
+  
+    &:active {
+      border-color: colors.$green-light;
+      color: colors.$green-light;
+    }
+  
+    &:disabled {
+      border-color: colors.$gray;
+      color: colors.$gray;
+    }
+  }
+
+  &--orange {
+    border-color: colors.$orange;
+    color: colors.$orange;
+    
+    &:hover {
+      border-color: colors.$orange-dark;
+      color: colors.$orange-dark;
+    }
+  
+    &:active {
+      border-color: colors.$orange-light;
+      color: colors.$orange-light;
+    }
+  
+    &:disabled {
+      border-color: colors.$gray;
+      color: colors.$gray;
+    }
+  }
+
+  &--red {
+    border-color: colors.$red;
+    color: colors.$red;
+    
+    &:hover {
+      border-color: colors.$red-dark;
+      color: colors.$red-dark;
+    }
+  
+    &:active {
+      border-color: colors.$red-light;
+      color: colors.$red-light;
+    }
+  
+    &:disabled {
+      border-color: colors.$gray;
+      color: colors.$gray;
+    }
+  }
+}
