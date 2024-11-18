@@ -1,0 +1,7 @@
+@use '@scss/variables' as vars;
+
+.input-area {
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: vars.$shadow;
+}
