@@ -23,6 +23,15 @@ export const router: Parameters<typeof createBrowserRouter>[0] = [ {
     {
       path: "/trainer",
       element: <TrainerPage />,
+      loader: async () => {
+        const exercises = [{
+          question: 'Я люблю гулять',
+          options: ['I', 'climbing', 'we', 'he', 'walking', 'like', 'watching', 'work', 'bathing'],
+          answer: 'I like walking',
+          totalOptionsLength: 3,
+        }]
+        return { exercises };
+      }
     },
     {
       path: "/profile",
