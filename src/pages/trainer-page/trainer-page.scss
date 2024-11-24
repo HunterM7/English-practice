@@ -1,39 +1,5 @@
 @use '@scss/variables';
 
 .trainer-page {
-  margin: 0 auto;
-  max-width: 1100px;
-  padding: 80px 60px;
-  border-radius: 20px;
-  box-shadow: variables.$shadow;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  &__title {
-    text-align: center;
-    font-size: 40px;
-  }
-
-  &__input-area {
-    width: 100%;
-    margin-top: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px 30px;
-  }
-
-  &__clear-button {
-    margin-top: 40px;
-  }
-
-  &__operators {
-    margin-top: 60px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px 40px;
-  }
-
-  &__operator {}
+  height: 100%;
 }

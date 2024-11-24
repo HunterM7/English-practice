@@ -28,6 +28,7 @@
       "@pages/*": ["pages/*"],
       "@router/*": ["router/*"],
       "@components/*": ["components/*"],
+      "@api/*": ["api/*"],
       "@utils/*": ["utils/*"],
       "@scss/*": ["scss/*"]
     },
